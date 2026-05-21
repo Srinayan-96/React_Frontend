@@ -99,8 +99,8 @@ function AdminForm({ initialData, onSubmit, onCancel, mode }) {
 
       <h2>
         {mode === "edit"
-          ? "✏️ Edit Product"
-          : "➕ Add New Product"}
+          ? " Edit Product"
+          : "Add New Product"}
       </h2>
 
       <div className="form-grid">
@@ -330,8 +330,8 @@ function AdminForm({ initialData, onSubmit, onCancel, mode }) {
           className="btn-submit"
         >
           {mode === "edit"
-            ? "💾 Save Changes"
-            : "➕ Add Product"}
+            ? "Save Changes"
+            : "Add Product"}
         </button>
 
         <button
